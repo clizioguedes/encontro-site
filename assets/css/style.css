@@ -814,30 +814,6 @@ section {
   justify-content: center;
 }
 
-.time .btn-whatsapp {
-  padding: 8px 30px 9px 30px;
-  color: #fff;
-  background: #128c7e;
-  border-radius: 50px;
-  transition: 0.3s;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 15px;
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #128c7e;
-}
-
-.time .btn-whatsapp i {
-  font-size: 15px;
-  padding-left: 10px;
-}
-
-.time .btn-whatsapp:hover {
-  color: #fff;
-  background: transparent;
-}
-
 /*--------------------------------------------------------------
 # Vídeos
 --------------------------------------------------------------*/
@@ -1439,35 +1415,11 @@ section {
   display: none;
 }
 
-.faq .faq-whatsapp {
+.faq-whatsapp {
   margin-top: 70px;
 
   display: flex;
   justify-content: center;
-}
-
-.faq .btn-whatsapp {
-  padding: 8px 30px 9px 30px;
-  color: #fff;
-  background: #128c7e;
-  border-radius: 50px;
-  transition: 0.3s;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 15px;
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #128c7e;
-}
-
-.faq .btn-whatsapp i {
-  font-size: 15px;
-  padding-left: 10px;
-}
-
-.faq .btn-whatsapp:hover {
-  color: #fff;
-  background: transparent;
 }
 
 /*--------------------------------------------------------------
@@ -2469,4 +2421,30 @@ section {
   background: #e03a3c;
   color: #fff;
   text-decoration: none;
+}
+
+/* ------ botão do whatsapp */
+
+.btn-whatsapp {
+  padding: 8px 30px 9px 30px;
+  color: #fff;
+  background: #128c7e;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #128c7e;
+}
+
+/* .btn-whatsapp i {
+  font-size: 15px;
+  padding-left: 10px;
+} */
+
+.btn-whatsapp:hover {
+  color: #fff;
+  background: transparent;
 }
